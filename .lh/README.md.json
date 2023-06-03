@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 1,
+            "activePatchIndex": 5,
             "patches": [
                 {
                     "date": 1685811437056,
@@ -12,6 +12,22 @@
                 {
                     "date": 1685812545271,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,20 +26,8 @@\n \n - View the optimal layout for the interface depending on their device's screen size\n - See hover and focus states for all interactive elements on the page\n \n-### Screenshot\n-\n-![](./screenshot.jpg)\n-\n-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select \"Take a Screenshot\". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.\n-\n-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.\n-\n-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.\n-\n-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**\n-\n ### Links\n \n - Solution URL: [Add solution URL here](https://your-solution-url.com)\n - Live Site URL: [Add live site URL here](https://your-live-site-url.com)\n"
+                },
+                {
+                    "date": 1685817874762,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n \n ### Links\n \n - Solution URL: [Add solution URL here](https://your-solution-url.com)\n-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)\n+- Live Site URL: [https://arkitecth.github.io/landing_page/]\n \n ## My process\n \n ### Built with\n"
+                },
+                {
+                    "date": 1685817883495,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n - See hover and focus states for all interactive elements on the page\n \n ### Links\n \n-- Solution URL: [Add solution URL here](https://your-solution-url.com)\n+- Solution URL: [Github Rep](https://your-solution-url.com)\n - Live Site URL: [https://arkitecth.github.io/landing_page/]\n \n ## My process\n \n"
+                },
+                {
+                    "date": 1685817889501,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n - See hover and focus states for all interactive elements on the page\n \n ### Links\n \n-- Solution URL: [Github Rep]()\n+- Solution URL: [Github Rep](https://github.com/Arkitecth/landing_page)\n - Live Site URL: [https://arkitecth.github.io/landing_page/]\n \n ## My process\n \n"
+                },
+                {
+                    "date": 1685817905384,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,20 +31,15 @@\n \n - Solution URL: [Github Rep](https://github.com/Arkitecth/landing_page)\n - Live Site URL: [https://arkitecth.github.io/landing_page/]\n \n-## My process\n \n ### Built with\n \n - Semantic HTML5 markup\n - CSS custom properties\n - Flexbox\n - CSS Grid\n-- Mobile-first workflow\n-- [React](https://reactjs.org/) - JS library\n-- [Next.js](https://nextjs.org/) - React framework\n-- [Styled Components](https://styled-components.com/) - For styles\n \n **Note: These are just examples. Delete this note and replace the list above with your own choices**\n \n ### What I learned\n"
                 }
             ],
             "date": 1685811437056,
