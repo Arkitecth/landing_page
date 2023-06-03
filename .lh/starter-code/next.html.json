@@ -1,0 +1,46 @@
+{
+    "sourceFile": "starter-code/next.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1683306033369,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1683306656331,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <title>Untitled Document</title>\n \n     <link rel=\"stylesheet\" href=\"css/style.css\" />\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n-    <link rel=\"stylesheet\" href=\"bootstrap/5/css/bootstrap.min.css\" />\n+    <link> https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js </link>\n     <link rel=\"stylesheet\" href=\"css/bootstrap-icons.css\" />\n     <style>\n         .curved-bottom {\n             /* Curved corners */\n"
+                },
+                {
+                    "date": 1683306671411,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <title>Untitled Document</title>\n \n     <link rel=\"stylesheet\" href=\"css/style.css\" />\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n-    <link> https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js </link>\n+    <link href=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js\">  </link>\n     <link rel=\"stylesheet\" href=\"css/bootstrap-icons.css\" />\n     <style>\n         .curved-bottom {\n             /* Curved corners */\n"
+                },
+                {
+                    "date": 1683306677836,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <title>Untitled Document</title>\n \n     <link rel=\"stylesheet\" href=\"css/style.css\" />\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n-    <link href=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js\">  </link>\n+    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js\">  </link>\n     <link rel=\"stylesheet\" href=\"css/bootstrap-icons.css\" />\n     <style>\n         .curved-bottom {\n             /* Curved corners */\n"
+                },
+                {
+                    "date": 1683306737047,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n \n     <link rel=\"stylesheet\" href=\"css/style.css\" />\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n     <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js\">  </link>\n+    <link rel=\"stylesheet\" <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css\" integrity=\"sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />>\n     <link rel=\"stylesheet\" href=\"css/bootstrap-icons.css\" />\n     <style>\n         .curved-bottom {\n             /* Curved corners */\n"
+                },
+                {
+                    "date": 1683306764095,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n \n     <link rel=\"stylesheet\" href=\"css/style.css\" />\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n     <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js\">  </link>\n-    <link rel=\"stylesheet\" <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css\" integrity=\"sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />>\n+    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css\" integrity=\"sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />>\n     <link rel=\"stylesheet\" href=\"css/bootstrap-icons.css\" />\n     <style>\n         .curved-bottom {\n             /* Curved corners */\n"
+                },
+                {
+                    "date": 1683306781835,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <title>Untitled Document</title>\n \n     <link rel=\"stylesheet\" href=\"css/style.css\" />\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n-    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js\">  </link>\n+    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js\"> \n     <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css\" integrity=\"sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />>\n     <link rel=\"stylesheet\" href=\"css/bootstrap-icons.css\" />\n     <style>\n         .curved-bottom {\n"
+                },
+                {
+                    "date": 1683306794247,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n \n     <link rel=\"stylesheet\" href=\"css/style.css\" />\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n     <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js\"> \n-    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css\" integrity=\"sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />>\n+    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css\" integrity=\"sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />\n     <link rel=\"stylesheet\" href=\"css/bootstrap-icons.css\" />\n     <style>\n         .curved-bottom {\n             /* Curved corners */\n"
+                }
+            ],
+            "date": 1683306033369,
+            "name": "Commit-0",
+            "content": "<!doctype html>\n<html>\n\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Untitled Document</title>\n\n    <link rel=\"stylesheet\" href=\"css/style.css\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <link rel=\"stylesheet\" href=\"bootstrap/5/css/bootstrap.min.css\" />\n    <link rel=\"stylesheet\" href=\"css/bootstrap-icons.css\" />\n    <style>\n        .curved-bottom {\n            /* Curved corners */\n            border-bottom-left-radius: 50% 40%;\n            border-bottom-right-radius: 50% 40%;\n        }\n    </style>\n</head>\n\n<body>\n    <main class=\"bg-light\">\n        <div class=\"container-fluid\">\n            <div class=\"row fw-bolder curved-bottom bg-primary\">\n                <div class=\"col\">\n                    <h1 class=\"text-light pb-5\">Fancy display heading</h1>\n                </div>\n            </div>\n        </div>\n    </main>\n    <footer class=\"bg-light\">\n        <div class=\"container\">\n            <div class=\"row bg-light\">\n                <div class=\"col\">\n                    <nav class=\"navbar navbar-expand-lg navbar-light bg-light p-0\">\n                        <span class=\"navbar-text p-2 d-none d-sm-block d-md-block small\"><i class=\"fa fa-map-marker\"></i> 1234 Street Name, City Name</span>\n                        <span class=\"navbar-text p-2 small\"><i class=\"fa fa-phone\"></i> (800) 123-4567</span>\n                        <span class=\"navbar-text p-2 d-none d-sm-block d-md-block small\"><i class=\"fa fa-envelope\"></i> mail@example.com</span>\n                        <span class=\"navbar-text p-2 d-none d-sm-block d-md-block small ms-auto\">Blog</span>\n                    </nav>\n                </div>\n            </div>\n        </div>\n    </footer>\n    <script src=\"bootstrap/5/js/bootstrap.bundle.min.js\"></script>\n</body>\n\n</html>"
+        }
+    ]
+}

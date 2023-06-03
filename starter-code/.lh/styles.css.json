@@ -1,0 +1,898 @@
+{
+    "sourceFile": "styles.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 220,
+            "patches": [
+                {
+                    "date": 1684380127403,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1684414194102,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -269,9 +269,9 @@\n     }\n     .feature-num {\n         position: absolute;\n         left: 250px;\n-        margin-top: 0 auto;\n+        margin-top: 20 auto;\n        \n     }\n \n     .feature-paragraph {\n"
+                },
+                {
+                    "date": 1684414200863,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -269,9 +269,9 @@\n     }\n     .feature-num {\n         position: absolute;\n         left: 250px;\n-        margin-top: 20 auto;\n+        margin-top: 50px; \n        \n     }\n \n     .feature-paragraph {\n"
+                },
+                {
+                    "date": 1684521582835,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -280,5 +280,14 @@\n         height: 56px;\n     }\n       \n }\n+\n+@media (min-width: 768px) and (max-width: 1024px) { \n+\n+    .body {\n+        background-color: black;\n+    }\n+      \n+}\n+ \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684521602574,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -281,9 +281,9 @@\n     }\n       \n }\n \n-@media (min-width: 768px) and (max-width: 1024px) { \n+@media (min-width: 320px) and (max-width: 480px) { \n \n     .body {\n         background-color: black;\n     }\n"
+                },
+                {
+                    "date": 1684521618899,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -282,12 +282,10 @@\n       \n }\n \n @media (min-width: 320px) and (max-width: 480px) { \n-\n-    .body {\n+    body {\n         background-color: black;\n     }\n-      \n }\n  \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684521659045,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -221,8 +221,9 @@\n     margin-top: 100px;\n }\n \n footer {\n+    background-color: #fff;\n     margin-left: 300px;\n     text-align: center;\n     padding-bottom: 100px;\n }\n"
+                },
+                {
+                    "date": 1684521670387,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -283,10 +283,14 @@\n       \n }\n \n @media (min-width: 320px) and (max-width: 480px) { \n-    body {\n-        background-color: black;\n+    footer {\n+        background-color: #fff;\n+        margin-left: 300px;\n+        text-align: center;\n+        padding-bottom: 100px;\n     }\n+    \n }\n  \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684521682365,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -284,12 +284,9 @@\n }\n \n @media (min-width: 320px) and (max-width: 480px) { \n     footer {\n-        background-color: #fff;\n-        margin-left: 300px;\n-        text-align: center;\n-        padding-bottom: 100px;\n+        background-color: red;\n     }\n     \n }\n  \n"
+                },
+                {
+                    "date": 1684521696432,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -283,11 +283,13 @@\n       \n }\n \n @media (min-width: 320px) and (max-width: 480px) { \n-    footer {\n-        background-color: red;\n-    }\n-    \n+   footer {\n+    background-color: #fff;\n+    margin-left: 300px;\n+    text-align: center;\n }\n+\n+}\n  \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684521709339,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -287,9 +287,9 @@\n    footer {\n     background-color: #fff;\n     margin-left: 300px;\n     text-align: center;\n-}\n+    }\n \n }\n  \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684521742206,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -284,11 +284,9 @@\n }\n \n @media (min-width: 320px) and (max-width: 480px) { \n    footer {\n-    background-color: #fff;\n-    margin-left: 300px;\n-    text-align: center;\n+    color: white;\n     }\n \n }\n  \n"
+                },
+                {
+                    "date": 1684521764055,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -283,11 +283,10 @@\n       \n }\n \n @media (min-width: 320px) and (max-width: 480px) { \n-   footer {\n-    color: white;\n+    body {\n+        \n     }\n-\n }\n  \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684521776910,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -284,9 +284,9 @@\n }\n \n @media (min-width: 320px) and (max-width: 480px) { \n     body {\n-        \n+        background-color: #fff;\n     }\n }\n  \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684521921552,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -283,9 +283,9 @@\n       \n }\n \n @media (min-width: 320px) and (max-width: 480px) { \n-    body {\n+    html,body {\n         background-color: #fff;\n     }\n }\n  \n"
+                },
+                {
+                    "date": 1684521926790,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -284,9 +284,9 @@\n }\n \n @media (min-width: 320px) and (max-width: 480px) { \n     html,body {\n-        background-color: #fff;\n+        height: 100vh;\n     }\n }\n  \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684521961253,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -283,10 +283,12 @@\n       \n }\n \n @media (min-width: 320px) and (max-width: 480px) { \n-    html,body {\n-        height: 100vh;\n-    }\n+  \n }\n  \n+@media(max-height: 100%)\n+html,body {\n+    height: 100vh;\n+}\n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684521966934,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,11 @@\n @media (min-width: 320px) and (max-width: 480px) { \n   \n }\n  \n-@media(max-height: 100%)\n-html,body {\n-    height: 100vh;\n+@media(max-height: 100%) {\n+    html,body {\n+        height: 100vh;\n+    }\n }\n+\n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684521986088,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,8 +17,9 @@\n \n body {\n     background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 30%, rgba(255,255,255,1) 100%); \n     width: 1100px;\n+    height: 100px;\n }\n \n \n /* Showcase */\n"
+                },
+                {
+                    "date": 1684521991261,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n \n body {\n     background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 30%, rgba(255,255,255,1) 100%); \n     width: 1100px;\n-    height: 100px;\n+    height: 100vh;\n }\n \n \n /* Showcase */\n"
+                },
+                {
+                    "date": 1684522004618,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     margin: 0;\n     padding: 0;\n }\n \n-body {\n+html,body {\n     background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 30%, rgba(255,255,255,1) 100%); \n     width: 1100px;\n     height: 100vh;\n }\n"
+                },
+                {
+                    "date": 1684522013382,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n \n html,body {\n     background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 30%, rgba(255,255,255,1) 100%); \n     width: 1100px;\n-    height: 100vh;\n+    height: 1100px; \n }\n \n \n /* Showcase */\n"
+                },
+                {
+                    "date": 1684522030181,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n \n html,body {\n     background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 30%, rgba(255,255,255,1) 100%); \n     width: 1100px;\n-    height: 1100px; \n+    max-height: 100vh;\n }\n \n \n /* Showcase */\n"
+                },
+                {
+                    "date": 1684522198367,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -289,9 +289,9 @@\n }\n  \n @media(max-height: 100%) {\n     html,body {\n-        height: 100vh;\n+        height: 500vh;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684522209078,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -289,9 +289,9 @@\n }\n  \n @media(max-height: 100%) {\n     html,body {\n-        height: 500vh;\n+       width: 100vh;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684522231924,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,10 +16,8 @@\n }\n \n html,body {\n     background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 30%, rgba(255,255,255,1) 100%); \n-    width: 1100px;\n-    max-height: 100vh;\n }\n \n \n /* Showcase */\n@@ -289,9 +287,9 @@\n }\n  \n @media(max-height: 100%) {\n     html,body {\n-       width: 100vh;\n+       width: 100vw;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684522241807,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -281,15 +281,5 @@\n     }\n       \n }\n \n-@media (min-width: 320px) and (max-width: 480px) { \n-  \n-}\n- \n-@media(max-height: 100%) {\n-    html,body {\n-       width: 100vw;\n-    }\n-}\n-\n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684522263547,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,8 +16,10 @@\n }\n \n html,body {\n     background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 30%, rgba(255,255,255,1) 100%); \n+    width: 1100px;\n+    max-height: 100vh;\n }\n \n \n /* Showcase */\n@@ -281,5 +283,15 @@\n     }\n       \n }\n \n+@media (min-width: 320px) and (max-width: 480px) { \n+  \n+}\n+ \n+@media(max-height: 100%) {\n+    html,body {\n+       width: 100vw;\n+    }\n+}\n+\n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684522280223,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,12 +286,8 @@\n \n @media (min-width: 320px) and (max-width: 480px) { \n   \n }\n- \n-@media(max-height: 100%) {\n-    html,body {\n-       width: 100vw;\n-    }\n+\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684522299371,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,8 @@\n \n html,body {\n     background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 30%, rgba(255,255,255,1) 100%); \n     width: 1100px;\n-    max-height: 100vh;\n }\n \n \n /* Showcase */\n@@ -287,7 +286,5 @@\n @media (min-width: 320px) and (max-width: 480px) { \n   \n }\n \n-}\n-\n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684522386555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     padding: 0;\n }\n \n html,body {\n-    background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 30%, rgba(255,255,255,1) 100%); \n+    /* background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 30%, rgba(255,255,255,1) 100%);  */\n     width: 1100px;\n }\n \n \n"
+                },
+                {
+                    "date": 1684522406175,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     padding: 0;\n }\n \n html,body {\n-    /* background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 30%, rgba(255,255,255,1) 100%);  */\n+     background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 30%, rgba(255,255,255,1) 100%);  */\n     width: 1100px;\n }\n \n \n"
+                },
+                {
+                    "date": 1684522412110,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     padding: 0;\n }\n \n html,body {\n-     background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 30%, rgba(255,255,255,1) 100%);  */\n+    background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 30%, rgba(255,255,255,1) 100%);\n     width: 1100px;\n }\n \n \n"
+                },
+                {
+                    "date": 1684522472009,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -279,12 +279,16 @@\n         text-align: left;\n         width: 493px;\n         height: 56px;\n     }\n+    \n       \n }\n \n @media (min-width: 320px) and (max-width: 480px) { \n-  \n+\n+    .purple-overlay {\n+        height: 1000px;\n+    }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684522507188,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media (min-width: 320px) and (max-width: 480px) { \n \n     .purple-overlay {\n-        height: 1000px;\n+        height: 10070px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684522516355,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media (min-width: 320px) and (max-width: 480px) { \n \n     .purple-overlay {\n-        height: 10070px;\n+        height: 1070px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684522558419,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -283,9 +283,13 @@\n     \n       \n }\n \n-@media (min-width: 320px) and (max-width: 480px) { \n+@media (min-width: 320px) and (max-width: 480px) {\n+    \n+    .bg-pattern-1 {\n+        display: none;\n+    }\n \n     .purple-overlay {\n         height: 1070px;\n     }\n"
+                },
+                {
+                    "date": 1684522564310,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -285,9 +285,9 @@\n }\n \n @media (min-width: 320px) and (max-width: 480px) {\n     \n-    .bg-pattern-1 {\n+    .bg-pattern-1, .bg-pattern-2 {\n         display: none;\n     }\n \n     .purple-overlay {\n"
+                },
+                {
+                    "date": 1684522577145,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -287,8 +287,9 @@\n @media (min-width: 320px) and (max-width: 480px) {\n     \n     .bg-pattern-1, .bg-pattern-2 {\n         display: none;\n+        width: 500px;\n     }\n \n     .purple-overlay {\n         height: 1070px;\n"
+                },
+                {
+                    "date": 1684522583916,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -287,9 +287,9 @@\n @media (min-width: 320px) and (max-width: 480px) {\n     \n     .bg-pattern-1, .bg-pattern-2 {\n         display: none;\n-        width: 500px;\n+        width: 300px;\n     }\n \n     .purple-overlay {\n         height: 1070px;\n"
+                },
+                {
+                    "date": 1684522594365,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -287,9 +287,9 @@\n @media (min-width: 320px) and (max-width: 480px) {\n     \n     .bg-pattern-1, .bg-pattern-2 {\n         display: none;\n-        width: 300px;\n+        min-width: 500px\n     }\n \n     .purple-overlay {\n         height: 1070px;\n"
+                },
+                {
+                    "date": 1684522734362,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -292,8 +292,9 @@\n     }\n \n     .purple-overlay {\n         height: 1070px;\n+        border-radius: 0 0 50% 50% / 50px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684522745464,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -291,9 +291,8 @@\n         min-width: 500px\n     }\n \n     .purple-overlay {\n-        height: 1070px;\n         border-radius: 0 0 50% 50% / 50px;\n     }\n }\n \n"
+                },
+                {
+                    "date": 1684522772059,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -292,8 +292,9 @@\n     }\n \n     .purple-overlay {\n         border-radius: 0 0 50% 50% / 50px;\n+        height: 600px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684522784347,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -292,9 +292,9 @@\n     }\n \n     .purple-overlay {\n         border-radius: 0 0 50% 50% / 50px;\n-        height: 600px;\n+        height: 1000px\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684522848203,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -291,10 +291,9 @@\n         min-width: 500px\n     }\n \n     .purple-overlay {\n-        border-radius: 0 0 50% 50% / 50px;\n-        height: 1000px\n+        height: 1200px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684522864710,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -293,7 +293,11 @@\n \n     .purple-overlay {\n         height: 1200px;\n     }\n+\n+    .grid-container {\n+        \n+    }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684522888137,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -295,9 +295,16 @@\n         height: 1200px;\n     }\n \n     .grid-container {\n-        \n+        display: grid;\n+        position: relative;\n+        grid-template-columns: none\n+        grid-template-rows: repeat(3, 1fr);\n+        margin-top: 200px;\n+        padding: 20px;\n+        gap: 100px;\n+        text-align: left;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684522903012,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -297,9 +297,9 @@\n \n     .grid-container {\n         display: grid;\n         position: relative;\n-        grid-template-columns: none\n+        grid-template-columns: none;\n         grid-template-rows: repeat(3, 1fr);\n         margin-top: 200px;\n         padding: 20px;\n         gap: 100px;\n"
+                },
+                {
+                    "date": 1684522923320,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -299,12 +299,8 @@\n         display: grid;\n         position: relative;\n         grid-template-columns: none;\n         grid-template-rows: repeat(3, 1fr);\n-        margin-top: 200px;\n-        padding: 20px;\n-        gap: 100px;\n-        text-align: left;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684522935015,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -299,8 +299,9 @@\n         display: grid;\n         position: relative;\n         grid-template-columns: none;\n         grid-template-rows: repeat(3, 1fr);\n+        font-size: 5rem;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684522954755,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -299,9 +299,9 @@\n         display: grid;\n         position: relative;\n         grid-template-columns: none;\n         grid-template-rows: repeat(3, 1fr);\n-        font-size: 5rem;\n+        font-size: 1rem;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684522978350,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -299,9 +299,9 @@\n         display: grid;\n         position: relative;\n         grid-template-columns: none;\n         grid-template-rows: repeat(3, 1fr);\n-        font-size: 1rem;\n+        font-size: 1.75rem;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684522995731,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -296,12 +296,12 @@\n     }\n \n     .grid-container {\n         display: grid;\n-        position: relative;\n         grid-template-columns: none;\n         grid-template-rows: repeat(3, 1fr);\n         font-size: 1.75rem;\n+        padding-bottom: 20px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523004321,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -299,9 +299,8 @@\n         display: grid;\n         grid-template-columns: none;\n         grid-template-rows: repeat(3, 1fr);\n         font-size: 1.75rem;\n-        padding-bottom: 20px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523012591,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -300,7 +300,11 @@\n         grid-template-columns: none;\n         grid-template-rows: repeat(3, 1fr);\n         font-size: 1.75rem;\n     }\n+\n+    .feature-num {\n+        padding: 20px;\n+    }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523020018,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -302,9 +302,9 @@\n         font-size: 1.75rem;\n     }\n \n     .feature-num {\n-        padding: 20px;\n+        padding-bottom: 20px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523026340,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -302,9 +302,9 @@\n         font-size: 1.75rem;\n     }\n \n     .feature-num {\n-        padding-bottom: 20px;\n+        padding-bottom: 10px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523042809,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -302,9 +302,9 @@\n         font-size: 1.75rem;\n     }\n \n     .feature-num {\n-        padding-bottom: 10px;\n+        padding-top: 20px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523081997,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -302,9 +302,9 @@\n         font-size: 1.75rem;\n     }\n \n     .feature-num {\n-        padding-top: 20px;\n+        padding-top: 40px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523088520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -302,9 +302,9 @@\n         font-size: 1.75rem;\n     }\n \n     .feature-num {\n-        padding-top: 40px;\n+        padding-bottom: 40px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523094348,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -302,9 +302,9 @@\n         font-size: 1.75rem;\n     }\n \n     .feature-num {\n-        padding-bottom: 40px;\n+        padding-bottom: 20px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523108915,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -302,9 +302,9 @@\n         font-size: 1.75rem;\n     }\n \n     .feature-num {\n-        padding-bottom: 20px;\n+        padding-bottom: 20px 20px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523119062,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -302,9 +302,9 @@\n         font-size: 1.75rem;\n     }\n \n     .feature-num {\n-        padding-bottom: 20px 20px;\n+        padding-bottom: 20px 20px 20px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523124952,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -302,9 +302,9 @@\n         font-size: 1.75rem;\n     }\n \n     .feature-num {\n-        padding-bottom: 20px 20px 20px;\n+        padding-bottom: 20px 20px 20px 20px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523136441,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -302,9 +302,9 @@\n         font-size: 1.75rem;\n     }\n \n     .feature-num {\n-        padding-bottom: 20px 20px 20px 20px;\n+        padding-bottom: 20px 20px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523154121,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -302,9 +302,9 @@\n         font-size: 1.75rem;\n     }\n \n     .feature-num {\n-        padding-bottom: 20px 20px;\n+        padding: 30px 20px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523162533,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -302,9 +302,9 @@\n         font-size: 1.75rem;\n     }\n \n     .feature-num {\n-        padding: 30px 20px;\n+        padding: 30px 10px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523168089,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -302,9 +302,9 @@\n         font-size: 1.75rem;\n     }\n \n     .feature-num {\n-        padding: 30px 10px;\n+        padding: 20px 10px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523177783,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -302,9 +302,9 @@\n         font-size: 1.75rem;\n     }\n \n     .feature-num {\n-        padding: 20px 10px;\n+        padding: 10px 10px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523199196,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -302,9 +302,9 @@\n         font-size: 1.75rem;\n     }\n \n     .feature-num {\n-        padding: 10px 10px;\n+        paddin\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523209229,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -302,9 +302,9 @@\n         font-size: 1.75rem;\n     }\n \n     .feature-num {\n-        paddin\n+        padding-bottom: 20px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523220860,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -303,8 +303,9 @@\n     }\n \n     .feature-num {\n         padding-bottom: 20px;\n+        padding-left: 10px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523230807,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -304,8 +304,9 @@\n \n     .feature-num {\n         padding-bottom: 20px;\n         padding-left: 10px;\n+        padding-right: 20px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523237104,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -304,9 +304,8 @@\n \n     .feature-num {\n         padding-bottom: 20px;\n         padding-left: 10px;\n-        padding-right: 20px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523246434,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -304,8 +304,9 @@\n \n     .feature-num {\n         padding-bottom: 20px;\n         padding-left: 10px;\n+        padding-top: 20px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523315811,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -302,11 +302,9 @@\n         font-size: 1.75rem;\n     }\n \n     .feature-num {\n-        padding-bottom: 20px;\n-        padding-left: 10px;\n-        padding-top: 20px;\n+        padding: 50px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523325357,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -303,8 +303,9 @@\n     }\n \n     .feature-num {\n         padding: 50px;\n+        text-align: center;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523332100,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -302,9 +302,9 @@\n         font-size: 1.75rem;\n     }\n \n     .feature-num {\n-        padding: 50px;\n+        padding: 20px;\n         text-align: center;\n     }\n }\n \n"
+                },
+                {
+                    "date": 1684523347341,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -302,8 +302,9 @@\n         font-size: 1.75rem;\n     }\n \n     .feature-num {\n+        margin: auto;\n         padding: 20px;\n         text-align: center;\n     }\n }\n"
+                },
+                {
+                    "date": 1684523354070,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -302,10 +302,9 @@\n         font-size: 1.75rem;\n     }\n \n     .feature-num {\n-        margin: auto;\n-        padding: 20px;\n+        padding: 0px;\n         text-align: center;\n     }\n }\n \n"
+                },
+                {
+                    "date": 1684523378920,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -302,9 +302,10 @@\n         font-size: 1.75rem;\n     }\n \n     .feature-num {\n-        padding: 0px;\n+        padding: 20px;\n+        padding-top: 10px;\n         text-align: center;\n     }\n }\n \n"
+                },
+                {
+                    "date": 1684523421233,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -291,9 +291,9 @@\n         min-width: 500px\n     }\n \n     .purple-overlay {\n-        height: 1200px;\n+        height: 1250px;\n     }\n \n     .grid-container {\n         display: grid;\n"
+                },
+                {
+                    "date": 1684523433554,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -291,9 +291,9 @@\n         min-width: 500px\n     }\n \n     .purple-overlay {\n-        height: 1250px;\n+        height: 1300px;\n     }\n \n     .grid-container {\n         display: grid;\n"
+                },
+                {
+                    "date": 1684523498177,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -306,7 +306,10 @@\n         padding: 20px;\n         padding-top: 10px;\n         text-align: center;\n     }\n+    .about-container {\n+        \n+    }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523513666,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -306,9 +306,10 @@\n         padding: 20px;\n         padding-top: 10px;\n         text-align: center;\n     }\n-    .about-container {\n+    \n+    .image-founder {\n         \n     }\n }\n \n"
+                },
+                {
+                    "date": 1684523528856,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -308,9 +308,9 @@\n         text-align: center;\n     }\n     \n     .image-founder {\n-        \n+        margin-left: 20px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523536372,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -308,9 +308,9 @@\n         text-align: center;\n     }\n     \n     .image-founder {\n-        margin-left: 20px;\n+        margin-right: 30px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523542967,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -308,9 +308,9 @@\n         text-align: center;\n     }\n     \n     .image-founder {\n-        margin-right: 30px;\n+        margin-right: 60px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523550397,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -308,9 +308,9 @@\n         text-align: center;\n     }\n     \n     .image-founder {\n-        margin-right: 60px;\n+        margin-right: 90px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523561907,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -309,8 +309,9 @@\n     }\n     \n     .image-founder {\n         margin-right: 90px;\n+        border: 10px solid red;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523568263,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -308,9 +308,9 @@\n         text-align: center;\n     }\n     \n     .image-founder {\n-        margin-right: 90px;\n+        margin-right: 1000px;\n         border: 10px solid red;\n     }\n }\n \n"
+                },
+                {
+                    "date": 1684523582816,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -308,10 +308,9 @@\n         text-align: center;\n     }\n     \n     .image-founder {\n-        margin-right: 1000px;\n-        border: 10px solid red;\n+        margin: 0 auto;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523610559,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -307,10 +307,10 @@\n         padding-top: 10px;\n         text-align: center;\n     }\n     \n-    .image-founder {\n-        margin: 0 auto;\n+    .about {\n+        border: 10px solid red;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523658145,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -307,10 +307,10 @@\n         padding-top: 10px;\n         text-align: center;\n     }\n     \n-    .about {\n-        border: 10px solid red;\n+    .spacing {\n+        border: 10p solid red;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523681086,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -308,9 +308,13 @@\n         text-align: center;\n     }\n     \n     .spacing {\n-        border: 10p solid red;\n+        border: 10px solid red;\n     }\n+\n+    .image-founder {\n+        margin-right: 500px;\n+    }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523687089,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -312,9 +312,9 @@\n         border: 10px solid red;\n     }\n \n     .image-founder {\n-        margin-right: 500px;\n+        margin-right: 200px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523699167,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -312,9 +312,9 @@\n         border: 10px solid red;\n     }\n \n     .image-founder {\n-        margin-right: 200px;\n+        margin-right: 60px\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523706779,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -312,9 +312,9 @@\n         border: 10px solid red;\n     }\n \n     .image-founder {\n-        margin-right: 60px\n+        margin: right 10px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523718371,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -312,9 +312,9 @@\n         border: 10px solid red;\n     }\n \n     .image-founder {\n-        margin: right 10px;\n+        margin-left: 10px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523733076,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -312,9 +312,9 @@\n         border: 10px solid red;\n     }\n \n     .image-founder {\n-        margin-left: 10px;\n+        margin-right: 60px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523770440,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -312,9 +312,9 @@\n         border: 10px solid red;\n     }\n \n     .image-founder {\n-        margin-right: 60px;\n+        margin-right: 300px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523798178,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -312,9 +312,9 @@\n         border: 10px solid red;\n     }\n \n     .image-founder {\n-        margin-right: 300px;\n+        margin-left: 300px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523803443,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -312,9 +312,9 @@\n         border: 10px solid red;\n     }\n \n     .image-founder {\n-        margin-left: 300px;\n+        margin-left: 500px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523809327,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -312,9 +312,9 @@\n         border: 10px solid red;\n     }\n \n     .image-founder {\n-        margin-left: 500px;\n+        margin-left: 600px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523834063,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -307,10 +307,10 @@\n         padding-top: 10px;\n         text-align: center;\n     }\n     \n-    .spacing {\n-        border: 10px solid red;\n+    .about {\n+        \n     }\n \n     .image-founder {\n         margin-left: 600px;\n"
+                },
+                {
+                    "date": 1684523844608,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -308,9 +308,9 @@\n         text-align: center;\n     }\n     \n     .about {\n-        \n+        margin-top: 200px;\n     }\n \n     .image-founder {\n         margin-left: 600px;\n"
+                },
+                {
+                    "date": 1684523852010,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -308,9 +308,9 @@\n         text-align: center;\n     }\n     \n     .about {\n-        margin-top: 200px;\n+        margin-top: 100px;\n     }\n \n     .image-founder {\n         margin-left: 600px;\n"
+                },
+                {
+                    "date": 1684523860269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -312,9 +312,9 @@\n         margin-top: 100px;\n     }\n \n     .image-founder {\n-        margin-left: 600px;\n+        margin-left: 550px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523884211,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -309,12 +309,13 @@\n     }\n     \n     .about {\n         margin-top: 100px;\n+        margin-right: 30px;\n     }\n \n     .image-founder {\n-        margin-left: 550px;\n+        margin-left: 600px;\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684523889609,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -309,9 +309,9 @@\n     }\n     \n     .about {\n         margin-top: 100px;\n-        margin-right: 30px;\n+        margin-right: 100px;\n     }\n \n     .image-founder {\n         margin-left: 600px;\n"
+                },
+                {
+                    "date": 1684523895375,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -309,9 +309,9 @@\n     }\n     \n     .about {\n         margin-top: 100px;\n-        margin-right: 100px;\n+        margin-right: 500px;\n     }\n \n     .image-founder {\n         margin-left: 600px;\n"
+                },
+                {
+                    "date": 1684523903269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -309,9 +309,9 @@\n     }\n     \n     .about {\n         margin-top: 100px;\n-        margin-right: 500px;\n+        margin-left: 100px;\n     }\n \n     .image-founder {\n         margin-left: 600px;\n"
+                },
+                {
+                    "date": 1684523908795,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -309,9 +309,9 @@\n     }\n     \n     .about {\n         margin-top: 100px;\n-        margin-left: 100px;\n+        margin-left: 10px;\n     }\n \n     .image-founder {\n         margin-left: 600px;\n"
+                },
+                {
+                    "date": 1684523928719,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -308,9 +308,9 @@\n         text-align: center;\n     }\n     \n     .about {\n-        margin-top: 100px;\n+        margin-top: 150px;\n         margin-left: 10px;\n     }\n \n     .image-founder {\n"
+                },
+                {
+                    "date": 1684523940036,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -308,9 +308,9 @@\n         text-align: center;\n     }\n     \n     .about {\n-        margin-top: 150px;\n+        margin-top: 140px;\n         margin-left: 10px;\n     }\n \n     .image-founder {\n"
+                },
+                {
+                    "date": 1684523946999,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -308,9 +308,9 @@\n         text-align: center;\n     }\n     \n     .about {\n-        margin-top: 140px;\n+        margin-top: 130px;\n         margin-left: 10px;\n     }\n \n     .image-founder {\n"
+                },
+                {
+                    "date": 1684523969314,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -308,10 +308,11 @@\n         text-align: center;\n     }\n     \n     .about {\n-        margin-top: 130px;\n+        margin-top: 120px;\n         margin-left: 10px;\n+        text-align: center;\n     }\n \n     .image-founder {\n         margin-left: 600px;\n"
+                },
+                {
+                    "date": 1684523998580,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -310,8 +310,11 @@\n     \n     .about {\n         margin-top: 120px;\n         margin-left: 10px;\n+    }\n+\n+    .about-container {\n         text-align: center;\n     }\n \n     .image-founder {\n"
+                },
+                {
+                    "date": 1684524014591,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -285,9 +285,9 @@\n }\n \n @media (min-width: 320px) and (max-width: 480px) {\n     \n-    .bg-pattern-1, .bg-pattern-2 {\n+    .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n         min-width: 500px\n     }\n \n"
+                },
+                {
+                    "date": 1684524031030,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -284,9 +284,12 @@\n       \n }\n \n @media (min-width: 320px) and (max-width: 480px) {\n-    \n+\n+    .body {\n+        font-size: 1.5rem;\n+    }\n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n         min-width: 500px\n     }\n"
+                },
+                {
+                    "date": 1684524036412,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media (min-width: 320px) and (max-width: 480px) {\n \n     .body {\n-        font-size: 1.5rem;\n+        font-size: 10rem;\n     }\n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n         min-width: 500px\n"
+                },
+                {
+                    "date": 1684524042287,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -285,10 +285,10 @@\n }\n \n @media (min-width: 320px) and (max-width: 480px) {\n \n-    .body {\n-        font-size: 10rem;\n+    body {\n+        font-size: 1.5rem;\n     }\n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n         min-width: 500px\n"
+                },
+                {
+                    "date": 1684524053337,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media (min-width: 320px) and (max-width: 480px) {\n \n     body {\n-        font-size: 1.5rem;\n+        font-size: 200px;\n     }\n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n         min-width: 500px\n"
+                },
+                {
+                    "date": 1684524060313,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media (min-width: 320px) and (max-width: 480px) {\n \n     body {\n-        font-size: 200px;\n+        font-size: 2rem;\n     }\n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n         min-width: 500px\n"
+                },
+                {
+                    "date": 1684524073715,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media (min-width: 320px) and (max-width: 480px) {\n \n     body {\n-        font-size: 2rem;\n+        font-size: 1rem;\n     }\n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n         min-width: 500px\n"
+                },
+                {
+                    "date": 1684524098558,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -322,7 +322,11 @@\n \n     .image-founder {\n         margin-left: 600px;\n     }\n+\n+    .footer {\n+        margin-left: 500px\n+    }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684524104592,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -324,9 +324,9 @@\n         margin-left: 600px;\n     }\n \n     .footer {\n-        margin-left: 500px\n+        margin-left: 700px\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684524109980,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -324,9 +324,9 @@\n         margin-left: 600px;\n     }\n \n     .footer {\n-        margin-left: 700px\n+        margin-left: 900px\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684524122674,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -323,10 +323,10 @@\n     .image-founder {\n         margin-left: 600px;\n     }\n \n-    .footer {\n-        margin-left: 900px\n+    footer {\n+        margin-left: 500px\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684524163094,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -285,11 +285,8 @@\n }\n \n @media (min-width: 320px) and (max-width: 480px) {\n \n-    body {\n-        font-size: 1rem;\n-    }\n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n         min-width: 500px\n     }\n@@ -324,9 +321,9 @@\n         margin-left: 600px;\n     }\n \n     footer {\n-        margin-left: 500px\n+        margin-left: 400px\n     }\n }\n \n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684524175978,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -199,9 +199,9 @@\n \n .about-container p {\n     font-family: \"Manrope\";\n     font-weight: 400;\n-    font-size: 18px;\n+    font-size: 1rem;\n     line-height: 32px;\n     margin-bottom: 30px;\n }\n \n"
+                },
+                {
+                    "date": 1684524187570,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -199,9 +199,9 @@\n \n .about-container p {\n     font-family: \"Manrope\";\n     font-weight: 400;\n-    font-size: 1rem;\n+    font-size: 1.5rem;\n     line-height: 32px;\n     margin-bottom: 30px;\n }\n \n"
+                },
+                {
+                    "date": 1684524193565,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -199,9 +199,9 @@\n \n .about-container p {\n     font-family: \"Manrope\";\n     font-weight: 400;\n-    font-size: 1.5rem;\n+    font-size: 18px;\n     line-height: 32px;\n     margin-bottom: 30px;\n }\n \n"
+                },
+                {
+                    "date": 1684524227016,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -199,9 +199,9 @@\n \n .about-container p {\n     font-family: \"Manrope\";\n     font-weight: 400;\n-    font-size: 18px;\n+    font-size: 1.13rem;\n     line-height: 32px;\n     margin-bottom: 30px;\n }\n \n"
+                },
+                {
+                    "date": 1684524261863,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -199,9 +199,9 @@\n \n .about-container p {\n     font-family: \"Manrope\";\n     font-weight: 400;\n-    font-size: 1.13rem;\n+    font-size: 3.5rem;\n     line-height: 32px;\n     margin-bottom: 30px;\n }\n \n"
+                },
+                {
+                    "date": 1684524294180,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -199,9 +199,9 @@\n \n .about-container p {\n     font-family: \"Manrope\";\n     font-weight: 400;\n-    font-size: 3.5rem;\n+    font-size: 1.13rem;\n     line-height: 32px;\n     margin-bottom: 30px;\n }\n \n"
+                },
+                {
+                    "date": 1684524305487,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -199,9 +199,9 @@\n \n .about-container p {\n     font-family: \"Manrope\";\n     font-weight: 400;\n-    font-size: 1.13rem;\n+    font-size: 18px;\n     line-height: 32px;\n     margin-bottom: 30px;\n }\n \n"
+                },
+                {
+                    "date": 1684524318737,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -199,9 +199,9 @@\n \n .about-container p {\n     font-family: \"Manrope\";\n     font-weight: 400;\n-    font-size: 18px;\n+    font-size: 1.13rem;\n     line-height: 32px;\n     margin-bottom: 30px;\n }\n \n"
+                },
+                {
+                    "date": 1684524337623,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -191,9 +191,9 @@\n }\n \n .about-container h3 {\n     font-family: \"Fraunces\";\n-    font-size: 56px;\n+    font-size: 3.5rem;\n     font-weight: 600;\n     margin-bottom: 32px;\n }\n \n"
+                },
+                {
+                    "date": 1684524361071,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -156,9 +156,9 @@\n }\n \n .feature-paragraph {\n     font-family: \"Manrope\";\n-    font-size: 18px;\n+    font-size: 1.13rem;\n     line-height: 32px;\n     width: 300px;\n     text-align: center;\n     font-weight: 400;\n"
+                },
+                {
+                    "date": 1684524381716,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -82,9 +82,9 @@\n     color: #fff;\n     font-weight: 600;\n     line-height: 80px;\n     margin-bottom: 40px;\n-    font-size: 80px;\n+    font-size: 5rem;\n }\n \n .underline {\n     text-decoration: underline;\n"
+                },
+                {
+                    "date": 1684524458730,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -283,9 +283,9 @@\n     \n       \n }\n \n-@media (min-width: 320px) and (max-width: 480px) {\n+@media(max-width: 480px) {\n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n         min-width: 500px\n"
+                },
+                {
+                    "date": 1684524588744,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     padding: 0;\n }\n \n html,body {\n-    background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 30%, rgba(255,255,255,1) 100%);\n+    background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 60%, rgba(255,255,255,1) 100%);\n     width: 1100px;\n }\n \n \n"
+                },
+                {
+                    "date": 1684524603900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     padding: 0;\n }\n \n html,body {\n-    background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 60%, rgba(255,255,255,1) 100%);\n+    background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 30%, rgba(255,255,255,1) 100%);\n     width: 1100px;\n }\n \n \n@@ -285,8 +285,10 @@\n }\n \n @media(max-width: 480px) {\n \n+    background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 30%, rgba(255,255,255,1) 100%);\n+\n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n         min-width: 500px\n     }\n"
+                },
+                {
+                    "date": 1684524611487,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -285,9 +285,12 @@\n }\n \n @media(max-width: 480px) {\n \n-    background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 30%, rgba(255,255,255,1) 100%);\n+    body {\n+        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 30%, rgba(255,255,255,1) 100%);\n+    }\n+   \n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n         min-width: 500px\n"
+                },
+                {
+                    "date": 1684524621661,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     body {\n-        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 30%, rgba(255,255,255,1) 100%);\n+        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 60%, rgba(255,255,255,1) 100%);\n     }\n    \n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n"
+                },
+                {
+                    "date": 1684524629267,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     body {\n-        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 60%, rgba(255,255,255,1) 100%);\n+        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 30%, rgba(255,255,255,1) 100%);\n     }\n    \n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n"
+                },
+                {
+                    "date": 1684524640316,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     body {\n-        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 30%, rgba(255,255,255,1) 100%);\n+        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 20%, rgba(255,255,255,1) 100%);\n     }\n    \n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n"
+                },
+                {
+                    "date": 1684524645985,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     body {\n-        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 20%, rgba(255,255,255,1) 100%);\n+        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 6%, rgba(255,255,255,1) 100%);\n     }\n    \n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n"
+                },
+                {
+                    "date": 1684524653369,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     body {\n-        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 6%, rgba(255,255,255,1) 100%);\n+        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 2-%, rgba(255,255,255,1) 100%);\n     }\n    \n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n"
+                },
+                {
+                    "date": 1684524726869,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     body {\n-        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 2-%, rgba(255,255,255,1) 100%);\n+        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 30%, rgba(255,255,255,1) 100%);\n     }\n    \n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n"
+                },
+                {
+                    "date": 1684524739095,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     body {\n-        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 30%, rgba(255,255,255,1) 100%);\n+        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 5%, rgba(255,255,255,1) 100%);\n     }\n    \n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n"
+                },
+                {
+                    "date": 1684524746056,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     body {\n-        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 5%, rgba(255,255,255,1) 100%);\n+        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 10%, rgba(255,255,255,1) 100%);\n     }\n    \n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n"
+                },
+                {
+                    "date": 1684524801760,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     body {\n-        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 10%, rgba(255,255,255,1) 100%);\n+        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 60%, rgba(255,255,255,1) 100%);\n     }\n    \n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n"
+                },
+                {
+                    "date": 1684524807212,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     body {\n-        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 60%, rgba(255,255,255,1) 100%);\n+        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 80%, rgba(255,255,255,1) 100%);\n     }\n    \n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n"
+                },
+                {
+                    "date": 1684524815719,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     body {\n-        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 80%, rgba(255,255,255,1) 100%);\n+        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 10%, rgba(255,255,255,1) 100%);\n     }\n    \n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n"
+                },
+                {
+                    "date": 1684524837298,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     body {\n-        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 10%, rgba(255,255,255,1) 100%);\n+        background-color: #fff;\n     }\n    \n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n"
+                },
+                {
+                    "date": 1684524844909,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     body {\n-        background-color: #fff;\n+        background-color: #f8f8f8;\n     }\n    \n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n"
+                },
+                {
+                    "date": 1684524883161,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     body {\n-        background-color: #f8f8f8;\n+        color: #fff;\n     }\n    \n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n"
+                },
+                {
+                    "date": 1684524890446,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     body {\n-        color: #fff;\n+        background-color: red;\n     }\n    \n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n"
+                },
+                {
+                    "date": 1684524903585,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     body {\n-        background-color: red;\n+        background-color: wheat;\n     }\n    \n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n"
+                },
+                {
+                    "date": 1684524915643,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     body {\n-        background-color: wheat;\n+        background-color: yellow;\n     }\n    \n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n"
+                },
+                {
+                    "date": 1684525357276,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     body {\n-        background-color: yellow;\n+        background-color: green;\n     }\n    \n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n"
+                },
+                {
+                    "date": 1684525773352,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -285,9 +285,9 @@\n }\n \n @media(max-width: 480px) {\n \n-    body {\n+    body p {\n         background-color: green;\n     }\n    \n \n"
+                },
+                {
+                    "date": 1684525783379,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -285,9 +285,9 @@\n }\n \n @media(max-width: 480px) {\n \n-    body p {\n+    body {\n         background-color: green;\n     }\n    \n \n"
+                },
+                {
+                    "date": 1684525800434,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     body {\n-        background-color: green;\n+\n     }\n    \n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n"
+                },
+                {
+                    "date": 1684525808590,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     body {\n-\n+        background-color: red\n     }\n    \n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n"
+                },
+                {
+                    "date": 1684525838810,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -284,14 +284,10 @@\n       \n }\n \n @media(max-width: 480px) {\n+    \n \n-    body {\n-        background-color: red\n-    }\n-   \n-\n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n         min-width: 500px\n     }\n"
+                },
+                {
+                    "date": 1684525877889,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -284,10 +284,13 @@\n       \n }\n \n @media(max-width: 480px) {\n-    \n \n+    .overlay {\n+        width: 1600px;\n+    }\n+\n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n         min-width: 500px\n     }\n"
+                },
+                {
+                    "date": 1684525890677,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     .overlay {\n-        width: 1600px;\n+        height: 780px;\n     }\n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n"
+                },
+                {
+                    "date": 1684525904205,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     .overlay {\n-        height: 780px;\n+        height: 800px;\n     }\n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n"
+                },
+                {
+                    "date": 1684525962968,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     .overlay {\n-        height: 800px;\n+        height: 400px;\n     }\n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n"
+                },
+                {
+                    "date": 1684525971895,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     .overlay {\n-        height: 400px;\n+        height: 800px;\n     }\n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n"
+                },
+                {
+                    "date": 1684525992511,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     .overlay {\n-        height: 800px;\n+        background-color: #24053e;\n     }\n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n"
+                },
+                {
+                    "date": 1684526038429,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     .overlay {\n-        background-color: #24053e;\n+        background-color: none;\n     }\n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n"
+                },
+                {
+                    "date": 1684526052062,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     .overlay {\n-        background-color: none;\n+        background: none;\n     }\n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n"
+                },
+                {
+                    "date": 1684526059795,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     .overlay {\n-        background: none;\n+        background-color: none;\n     }\n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n"
+                },
+                {
+                    "date": 1684526072706,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     .overlay {\n-        background-color: none;\n+        background: #24053e;\n     }\n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n"
+                },
+                {
+                    "date": 1684526107543,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -285,10 +285,10 @@\n }\n \n @media(max-width: 480px) {\n \n-    .overlay {\n-        background: #24053e;\n+    html,.body {\n+        \n     }\n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n"
+                },
+                {
+                    "date": 1684526114757,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -285,10 +285,10 @@\n }\n \n @media(max-width: 480px) {\n \n-    html,.body {\n-        \n+    html,body {\n+        background: none;\n     }\n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n"
+                },
+                {
+                    "date": 1684526174342,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     html,body {\n-        background: none;\n+        background: red;\n     }\n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n"
+                },
+                {
+                    "date": 1684526217380,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     html,body {\n-        background: red;\n+        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 30%, rgba(255,255,255,1) 100%);\n     }\n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n"
+                },
+                {
+                    "date": 1684526227526,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     html,body {\n-        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 30%, rgba(255,255,255,1) 100%);\n+        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 60%, rgba(255,255,255,1) 100%);\n     }\n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n"
+                },
+                {
+                    "date": 1684526235095,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     html,body {\n-        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 60%, rgba(255,255,255,1) 100%);\n+        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 70%, rgba(255,255,255,1) 100%);\n     }\n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n"
+                },
+                {
+                    "date": 1684526240611,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     html,body {\n-        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 70%, rgba(255,255,255,1) 100%);\n+        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 80%, rgba(255,255,255,1) 100%);\n     }\n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n"
+                },
+                {
+                    "date": 1684526248160,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     html,body {\n-        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 80%, rgba(255,255,255,1) 100%);\n+        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 30%, rgba(255,255,255,1) 100%);\n     }\n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n"
+                },
+                {
+                    "date": 1684526290889,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     html,body {\n-        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 30%, rgba(255,255,255,1) 100%);\n+        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 10%, rgba(255,255,255,1) 100%);\n     }\n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n@@ -325,8 +325,9 @@\n         margin-left: 600px;\n     }\n \n     footer {\n+        padding-bottom: 200px;\n         margin-left: 400px\n     }\n }\n \n"
+                },
+                {
+                    "date": 1684526314041,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -325,9 +325,9 @@\n         margin-left: 600px;\n     }\n \n     footer {\n-        padding-bottom: 200px;\n+        background: red;\n         margin-left: 400px\n     }\n }\n \n"
+                },
+                {
+                    "date": 1684526428487,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     html,body {\n-        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 10%, rgba(255,255,255,1) 100%);\n+        /* background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 10%, rgba(255,255,255,1) 100%); */\n     }\n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n"
+                },
+                {
+                    "date": 1684526478712,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -291,9 +291,8 @@\n     }\n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n-        min-width: 500px\n     }\n \n     .purple-overlay {\n         height: 1300px;\n"
+                },
+                {
+                    "date": 1684526505505,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -324,8 +324,9 @@\n         margin-left: 600px;\n     }\n \n     footer {\n+        height: 200px;\n         background: red;\n         margin-left: 400px\n     }\n }\n"
+                },
+                {
+                    "date": 1684526513683,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -324,9 +324,9 @@\n         margin-left: 600px;\n     }\n \n     footer {\n-        height: 200px;\n+        height: 400px;\n         background: red;\n         margin-left: 400px\n     }\n }\n"
+                },
+                {
+                    "date": 1684526522984,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -324,9 +324,9 @@\n         margin-left: 600px;\n     }\n \n     footer {\n-        height: 400px;\n+        height: 800px;\n         background: red;\n         margin-left: 400px\n     }\n }\n"
+                },
+                {
+                    "date": 1684526535550,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -325,9 +325,8 @@\n     }\n \n     footer {\n         height: 800px;\n-        background: red;\n         margin-left: 400px\n     }\n }\n \n"
+                },
+                {
+                    "date": 1684526543152,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -324,9 +324,9 @@\n         margin-left: 600px;\n     }\n \n     footer {\n-        height: 800px;\n+        height: 600px;\n         margin-left: 400px\n     }\n }\n \n"
+                },
+                {
+                    "date": 1684526550739,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -324,9 +324,9 @@\n         margin-left: 600px;\n     }\n \n     footer {\n-        height: 600px;\n+        height: 500px;\n         margin-left: 400px\n     }\n }\n \n"
+                },
+                {
+                    "date": 1684526560520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     html,body {\n-        /* background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 10%, rgba(255,255,255,1) 100%); */\n+        background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 10%, rgba(255,255,255,1) 100%);\n     }\n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n"
+                },
+                {
+                    "date": 1684526637604,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -285,8 +285,11 @@\n }\n \n @media(max-width: 480px) {\n \n+    .container {\n+        min-width: 200px;\n+    }\n     html,body {\n         background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 10%, rgba(255,255,255,1) 100%);\n     }\n \n"
+                },
+                {
+                    "date": 1684526648150,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     .container {\n-        min-width: 200px;\n+        max-width: 200px;\n     }\n     html,body {\n         background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 10%, rgba(255,255,255,1) 100%);\n     }\n"
+                },
+                {
+                    "date": 1684526660251,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     .container {\n-        max-width: 200px;\n+        max-width: 400px;\n     }\n     html,body {\n         background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 10%, rgba(255,255,255,1) 100%);\n     }\n"
+                },
+                {
+                    "date": 1684526671917,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n \n     .container {\n-        max-width: 400px;\n+        max-width: 100px;\n     }\n     html,body {\n         background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 10%, rgba(255,255,255,1) 100%);\n     }\n"
+                },
+                {
+                    "date": 1684526679084,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -284,12 +284,8 @@\n       \n }\n \n @media(max-width: 480px) {\n-\n-    .container {\n-        max-width: 100px;\n-    }\n     html,body {\n         background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 10%, rgba(255,255,255,1) 100%);\n     }\n \n"
+                },
+                {
+                    "date": 1684526732812,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,8 +286,9 @@\n \n @media(max-width: 480px) {\n     html,body {\n         background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 10%, rgba(255,255,255,1) 100%);\n+        font-size: large;\n     }\n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n"
+                },
+                {
+                    "date": 1684526743156,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n     html,body {\n         background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 10%, rgba(255,255,255,1) 100%);\n-        font-size: large;\n+        font-size: 60px;\n     }\n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n"
+                },
+                {
+                    "date": 1684526749458,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n     html,body {\n         background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 10%, rgba(255,255,255,1) 100%);\n-        font-size: 60px;\n+        font-size: 10px;\n     }\n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n"
+                },
+                {
+                    "date": 1684526759501,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,9 @@\n \n @media(max-width: 480px) {\n     html,body {\n         background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 10%, rgba(255,255,255,1) 100%);\n-        font-size: 10px;\n+        font-size: 40px;\n     }\n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n"
+                },
+                {
+                    "date": 1684526771847,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,8 @@\n \n @media(max-width: 480px) {\n     html,body {\n         background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 10%, rgba(255,255,255,1) 100%);\n-        font-size: 40px;\n     }\n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n"
+                },
+                {
+                    "date": 1684526808669,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,8 +286,9 @@\n \n @media(max-width: 480px) {\n     html,body {\n         background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 10%, rgba(255,255,255,1) 100%);\n+        width: 50%;\n     }\n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n"
+                },
+                {
+                    "date": 1684526815484,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,9 +286,8 @@\n \n @media(max-width: 480px) {\n     html,body {\n         background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 10%, rgba(255,255,255,1) 100%);\n-        width: 50%;\n     }\n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n"
+                },
+                {
+                    "date": 1684526821906,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -284,8 +284,11 @@\n       \n }\n \n @media(max-width: 480px) {\n+    .container {\n+        width: 50%;\n+    }\n     html,body {\n         background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 10%, rgba(255,255,255,1) 100%);\n     }\n \n"
+                },
+                {
+                    "date": 1684526833036,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -284,11 +284,8 @@\n       \n }\n \n @media(max-width: 480px) {\n-    .container {\n-        width: 50%;\n-    }\n     html,body {\n         background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 10%, rgba(255,255,255,1) 100%);\n     }\n \n"
+                },
+                {
+                    "date": 1684527416075,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -191,9 +191,9 @@\n }\n \n .about-container h3 {\n     font-family: \"Fraunces\";\n-    font-size: 3.5rem;\n+    font-size: 5rem;\n     font-weight: 600;\n     margin-bottom: 32px;\n }\n \n"
+                },
+                {
+                    "date": 1684527425173,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -191,9 +191,9 @@\n }\n \n .about-container h3 {\n     font-family: \"Fraunces\";\n-    font-size: 5rem;\n+    font-size: 3.5rem;\n     font-weight: 600;\n     margin-bottom: 32px;\n }\n \n"
+                },
+                {
+                    "date": 1684527562757,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,8 +286,9 @@\n \n @media(max-width: 480px) {\n     html,body {\n         background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 10%, rgba(255,255,255,1) 100%);\n+        font-size: 100%;\n     }\n \n     .bg-pattern-1, .bg-pattern-2, .bg-pattern-3 {\n         display: none;\n"
+                },
+                {
+                    "date": 1684527573535,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -199,9 +199,9 @@\n \n .about-container p {\n     font-family: \"Manrope\";\n     font-weight: 400;\n-    font-size: 1.13rem;\n+    font-size: 1.13em;\n     line-height: 32px;\n     margin-bottom: 30px;\n }\n \n"
+                },
+                {
+                    "date": 1684527580759,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -156,9 +156,9 @@\n }\n \n .feature-paragraph {\n     font-family: \"Manrope\";\n-    font-size: 1.13rem;\n+    font-size: 1.13em;\n     line-height: 32px;\n     width: 300px;\n     text-align: center;\n     font-weight: 400;\n@@ -191,9 +191,9 @@\n }\n \n .about-container h3 {\n     font-family: \"Fraunces\";\n-    font-size: 3.5rem;\n+    font-size: 3.5em;\n     font-weight: 600;\n     margin-bottom: 32px;\n }\n \n"
+                },
+                {
+                    "date": 1684527586788,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -82,9 +82,9 @@\n     color: #fff;\n     font-weight: 600;\n     line-height: 80px;\n     margin-bottom: 40px;\n-    font-size: 5rem;\n+    font-size: 5em;\n }\n \n .underline {\n     text-decoration: underline;\n"
+                },
+                {
+                    "date": 1684527618104,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -199,9 +199,9 @@\n \n .about-container p {\n     font-family: \"Manrope\";\n     font-weight: 400;\n-    font-size: 1.13em;\n+    font-size: 1.15em;\n     line-height: 32px;\n     margin-bottom: 30px;\n }\n \n"
+                },
+                {
+                    "date": 1684528197421,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,13 @@\n \n /* Showcase */\n .container {\n     max-width: 1100px;\n-    margin:  auto;\n+    margin:0 auto;\n+    background:#f7f7f7;\n+    position:absolute;\n+    left:50%;\n+    top:50%;\n }\n  \n .overlay {\n     width: 1500px;\n"
+                },
+                {
+                    "date": 1684528213722,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,13 +23,9 @@\n \n /* Showcase */\n .container {\n     max-width: 1100px;\n-    margin:0 auto;\n-    background:#f7f7f7;\n-    position:absolute;\n-    left:50%;\n-    top:50%;\n+    margin:  auto;\n }\n  \n .overlay {\n     width: 1500px;\n"
+                }
+            ],
+            "date": 1684380127403,
+            "name": "Commit-0",
+            "content": "@font-face {\n    font-family: \"Fraunces\";\n    src: url(\"/Users/trenttuedon/Desktop/workit-landing-page/starter-code/assets/fonts/fraunces/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf\"); \n   \n}\n\n@font-face {\n    font-family: \"Manrope\";\n    src: url(\"starter-code/assets/fonts/manrope/Manrope-VariableFont_wght.ttf\"); \n   \n}\n\n* {\n    margin: 0;\n    padding: 0;\n}\n\nbody {\n    background: linear-gradient(180deg, rgba(36,5,62,1) 0%, rgba(252,248,255,1) 30%, rgba(255,255,255,1) 100%); \n    width: 1100px;\n}\n\n\n/* Showcase */\n.container {\n    max-width: 1100px;\n    margin:  auto;\n}\n \n.overlay {\n    width: 1500px;\n    max-width: 1500px;\n    height: 730px;\n    background-color: #24053e;\n    border-radius: 100% /0 0 80px 80px; \n}\n.navbar {\n    color: #fff;\n    display: flex;\n    justify-content: space-between;\n    position: relative;\n    top: 50px;\n}\n\n.navbar a {\n    text-decoration: none;\n    color: #fff;\n}\n\n.secondary-default {\n    font-family: sans-serif;\n    border-bottom: 3px solid #44ffa1;\n}\n\n.secondary-default:hover {\n    color: #44ffa1;\n}\n\n.bg-pattern-1 {\n   position: absolute;\n   left: -140px;\n   top: 140px;\n}\n\n.bg-pattern-2 {\n    position: absolute;\n    left: 1330px;\n    top: 250px;\n }\n\n.heading {\n    justify-content: center; \n    width: 635px;\n    height: 258px;\n    margin: 0 auto;\n    margin-top: 146px;\n    text-align: center;\n}\n\n.heading h1 {\n    font-family: Fraunces;\n    color: #fff;\n    font-weight: 600;\n    line-height: 80px;\n    margin-bottom: 40px;\n    font-size: 80px;\n}\n\n.underline {\n    text-decoration: underline;\n    text-decoration-thickness: 2px;\n    text-decoration-color: #44ffa1;\n    text-underline-offset: 6px;\n}\n\n.primary-default {\n    font-family: sans-serif;\n    line-height: 40px;\n    background-color: #44ffa1;\n    border: 0;\n    color: black;\n    text-decoration: none;\n    padding: 20px 40px;\n}\n\n.primary-default:hover {\n    background-color: #24053e;\n    color: #44ffa1;\n    border: 1px solid #44ffa1;\n}\n\n.image-hero {\n    display: block;\n    margin-top: 30px;\n    width: 700px;\n    height: 400px;\n}\n\n/* Features */\n.grid-container {\n    display: grid; \n    padding-top: 200px;\n    grid-template-rows: 1fr 1fr;\n    grid-template-columns: 1fr 1fr 1fr;\n    font-family: \"Fraunces\";\n    gap: 30px;\n    text-align: center;\n}\n\n\n.feature-num {\n    border: 1px solid #584d62;\n    border-radius: 50%;\n    width: 20px;\n    height: 20px;\n    padding: 10px;\n    margin: auto;\n    text-align: center;\n    margin-bottom: 50px;\n    color: #24053e;\n}\n\n\n.purple-overlay {\n    background: #fdf8ff;\n    border-radius: 0 0 50% 50% / 50px;\n    width: 1500px;\n    height: 600px;\n\n}\n\n.feature-heading {\n    margin-bottom: 40px;\n    font-weight: 600;\n    color: #24053e;\n}\n\n.feature-paragraph {\n    font-family: \"Manrope\";\n    font-size: 18px;\n    line-height: 32px;\n    width: 300px;\n    text-align: center;\n    font-weight: 400;\n    color: #584d62;\n    margin: auto;\n \n}\n\n\n/* About Section */\n\n.image-founder {\n    margin-left: 250px;\n}\n\n.about{\n    position: relative;\n    color: #fff;\n    background-color: #24053e;\n    width: 730px;\n    height: 413px;\n    bottom: 200px;\n    left: 400px;\n    margin-left: 100px;\n}\n\n.about-container {\n    text-align: left;\n    padding: 70px;\n}\n\n.about-container h3 {\n    font-family: \"Fraunces\";\n    font-size: 56px;\n    font-weight: 600;\n    margin-bottom: 32px;\n}\n\n.about-container p {\n    font-family: \"Manrope\";\n    font-weight: 400;\n    font-size: 18px;\n    line-height: 32px;\n    margin-bottom: 30px;\n}\n\n.about-container a {\n    margin-top: 100px;\n}\n\n.bg-pattern-3 {\n    position: relative;\n    bottom: 120px;\n    left: 400px;\n}\n\n/* Footer */\n\n.spacing {\n    margin-top: 100px;\n}\n\nfooter {\n    margin-left: 300px;\n    text-align: center;\n    padding-bottom: 100px;\n}\n\n.icons {\n    margin-top: 40px;\n  \n}\n\n.icon {\n    padding: 0 20px 0 20px;\n}\n\n\n/* Media Queries */\n\n@media (min-width: 768px) and (max-width: 1024px) { \n\n    .body {\n        background-color: black;\n    }\n    .bg-pattern-1 {\n        left: -200px;\n    }\n\n    .bg-pattern-2 { \n        left: 1330px;\n        overflow: hidden;\n    }\n    .grid-container {\n        display: grid;\n        position: relative;\n        grid-template-columns: none;\n        grid-template-rows: repeat(3, 1fr);\n        margin-top: 200px;\n        padding: 20px;\n        gap: 100px;\n        text-align: left;\n    }\n    .feature-heading {\n       text-align: left;\n       margin-left: 300px;\n       margin-bottom: 20px;\n    }\n    .feature-num {\n        position: absolute;\n        left: 250px;\n        margin-top: 0 auto;\n       \n    }\n\n    .feature-paragraph {\n        text-align: left;\n        width: 493px;\n        height: 56px;\n    }\n      \n}\n "
+        }
+    ]
+}
