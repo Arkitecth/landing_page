@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 5,
+            "activePatchIndex": 6,
             "patches": [
                 {
                     "date": 1685813613012,
@@ -28,6 +28,10 @@
                 {
                     "date": 1685813724057,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n </head>\n <body>\n   <header id=\"header\"> \n     <img src=\"starter-code/assets/images/bg-pattern-1.svg\" class=\"bg-pattern-1\" alt=\"bg-pattern-1\">\n-    <img src=\"starter/code/assets/images/bg-pattern-2.svg\" class=\"bg-pattern-2\" alt=\"bg-pattern-2\">\n+    <img src=\"starter-code/assets/images/bg-pattern-2.svg\" class=\"bg-pattern-2\" alt=\"bg-pattern-2\">\n     <div class=\"container\">\n       <nav>\n         <object data=\"starter-code/assets/images/logo-light.svg\"></object>\n         <a class=\"btn-secondary\" href=\"#\">Apply for access</a>\n"
+                },
+                {
+                    "date": 1685817799275,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   <meta charset=\"UTF-8\">\n   <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n   <meta name=\"viewport\" content=\"width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0\">\n   <title>Work-it | Landing Page</title>\n-  <link rel=\"stylesheet\" href=\"starter-code/styles.css\">\n+  <link rel=\"stylesheet\" href=\"styles.css\">\n </head>\n <body>\n   <header id=\"header\"> \n     <img src=\"starter-code/assets/images/bg-pattern-1.svg\" class=\"bg-pattern-1\" alt=\"bg-pattern-1\">\n"
                 }
             ],
             "date": 1685813613012,
